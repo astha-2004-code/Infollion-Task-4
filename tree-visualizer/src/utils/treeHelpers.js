@@ -90,7 +90,7 @@ export function treeToFlow(
   return { nodes, edges };
 }
 
-let _idCounter = 0;
+//let _idCounter = 0;
 
 function _subtreeWidth(node, collapsed) {
   if (
