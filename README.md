@@ -1,9 +1,15 @@
 # Tree View Visualizer – Infollion Task 4
 
-This project is a Tree Structure Visualizer built using React Flow.  
+This project is a **Tree Structure Visualizer** built using **React Flow**.  
 It renders hierarchical tree data with proper spacing, parent-child relationships, and dynamic expand/collapse functionality.
 
-The project was implemented according to the requirements provided in the Infollion Task 4 PDF. :contentReference[oaicite:0]{index=0}
+The project was implemented according to the requirements provided in the **Infollion Task 4 PDF**.
+
+---
+
+# Live Deployment
+
+🔗 https://infollion-task-4.vercel.app
 
 ---
 
@@ -57,7 +63,7 @@ The project was implemented according to the requirements provided in the Infoll
 Install the following before running the project:
 
 ### 1. Node.js
-Download and install:
+Download and install:  
 https://nodejs.org/
 
 ### 2. npm
@@ -68,8 +74,61 @@ Verify installation:
 ```bash
 node -v
 npm -v
+```
+
+---
+
+# Installation & Running the Project
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/astha-2004-code/Infollion-Task-4.git
+```
+
+## Move into the Project Folder
+
+```bash
+cd Infollion-Task-4
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start the Development Server
+
+```bash
+npm start
+```
+
+---
+
+# Folder Structure
+
+```plaintext
+src/
+│
+├── components/
+│   ├── TreeNode.jsx
+│   └── AddNodeModal.jsx
+│
+├── hooks/
+│   └── useTreeState.js
+│
+├── utils/
+│   └── treeHelpers.js
+│
+├── App.jsx
+├── index.js
+└── index.css
+```
+
+---
 
 # Author
 
-Astha Jha  
+**Astha Jha**  
 National Institute of Technology Delhi (NIT Delhi)
